@@ -5,12 +5,32 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* Header Style Start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -42,33 +62,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
-
-section {
-    padding: 60px;
-}
+/* Header Style End */
 
 /* Hero Style Start */
 .hero {
@@ -80,7 +74,7 @@ section {
 }
 /* Hero Style End */
 
-/*Hero-Form Style Start */
+/* Hero-Form Style Start */
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -91,7 +85,6 @@ section {
     bottom: 120px;
     right: 140px;
   }
-/*Hero-Form Style End */
 
 .hero-form h3 {
     font-size: 24px;
@@ -100,6 +93,10 @@ section {
 
 .hero-form p {
     margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
 
 .form-input {
@@ -112,10 +109,6 @@ section {
     margin-bottom: 15px;
 }
 
-.hero-form label {
-    margin: 0 5px;
-}
-
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -123,7 +116,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/* Hero-Form Style End */
 
+/* Intro Section Style Start */
 .intro {
     text-align: center;
 }
@@ -164,23 +159,7 @@ section {
 .steps span {
     font-size: 38px;
 }
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
+/* Intro Section Style end */
 
 /*Trainer Section Style Start */
 .trainers {
@@ -229,6 +208,7 @@ section {
 .text-right {
     text-align: right;
 }
+/*Trainer Section Style End */
 
 /* Reach Out Section Style Start */
 .contact {
@@ -270,3 +250,28 @@ section {
     color: #fce138;
 }
 /* Reach Out Section Style End */
+
+/* Footer Style Start */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+/* Footer Style End */
