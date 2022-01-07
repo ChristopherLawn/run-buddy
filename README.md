@@ -14,5 +14,3 @@ https://lernantino.github.io/run-buddy/
 Made with ❤️ by Chris Lawn
 
 ### ©️2019 Run Buddy, Inc
-
-[Email](mailto:christopher.lawn@yahoo.com)
