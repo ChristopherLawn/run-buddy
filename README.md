@@ -1,5 +1,10 @@
 # Run Buddy, Inc
 
+## Contents
+* [Purpose](#purpose)
+* [Built With](#built-with)
+* [Website](#website)
+
 ## Purpose
 A website that offers fitness training services. 
 
